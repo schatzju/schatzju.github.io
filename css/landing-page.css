@@ -20,7 +20,7 @@ html {
 .header-talk {
     color: #49434C;
     text-align: "left" !important;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Trebuchet MS";
     padding-bottom: 12px;
     padding-top: 4px;
@@ -70,7 +70,7 @@ html {
 .header-namePro {
     color: #000111;
     text-align: "left" !important;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Trebuchet MS";
     padding-bottom: 5px;
     padding-top: 0px;
@@ -81,7 +81,7 @@ html {
 .header-button {
     color: #482A57;
     text-align: "left" !important;
-    font-size: 19px;
+    font-size: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
     font-family: "Trebuchet MS";
