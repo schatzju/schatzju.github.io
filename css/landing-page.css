@@ -6,7 +6,7 @@
 
 body,
 html {
-    background-color: #00083F;
+    background-image: url("../img/background4.png");
     height:100%;
     position: center;
 
@@ -43,9 +43,9 @@ html {
     padding-top: 4px;
 }
 .header-name {
-    color: #EF9A39;
+    color: #000000;
     text-align: "left" !important;
-    font-size: 90px;
+    font-size: 25px;
     font-family: "Trebuchet MS";
     padding-bottom: 0px;
     padding-top: 7px;
@@ -60,9 +60,9 @@ html {
     padding-top: 7px;
   }
 .header-namePro {
-    color: #EF9A39;
+    color: #000111;
     text-align: "left" !important;
-    font-size: 70px;
+    font-size: 15px;
     font-family: "Trebuchet MS";
     padding-bottom: 5px;
     padding-top: 0px;
@@ -73,7 +73,7 @@ html {
 .header-button {
     color: #482A57;
     text-align: "left" !important;
-    font-size: 20px;
+    font-size: 19px;
     padding-bottom: 5px;
     padding-top: 5px;
     font-family: "Trebuchet MS";
@@ -85,8 +85,7 @@ html {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-
+  height: 85vh;
 }
 
 .art{
@@ -105,40 +104,31 @@ html {
   align-items: center;
   height: 50vh;
 }
-table {
-    table-layout: fixed;
-    width: 100%;   
-}
+
 
 .flex-item {
-  width: 400px;  /* Or whatever */
-  height: 50px; /* Or whatever */
+  width: 250px;  /* Or whatever */
+  height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
   padding-left: 0px;
-  background-color: #00083F;
+  background-color: #FFFFFF;
 }
 
 a {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #F1D876;
+    color: #252E82;
 }
 
-h1 {
-    color: #EF9A39;
-}
-
-h3 {
-font-weight: 200;
-}
 
 body,
 h2,
+h3,
 h4,
 h5,
 h6
 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 00;
-    color: #DCA24E;
+    font-weight: 700;
+    color: #000;
 }
