@@ -13,12 +13,12 @@ document.getElementById('teaching_button').onclick = function(event) {
 
         var images = [
             "img/personal/grad_1.JPG",
-            "img/personal/pers5.jpeg",             
+            "img/personal/pers5.jpg",             
             "img/personal/pers6.jpg", 
             "img/personal/pers10.jpg",
             "img/personal/pers3.jpg", 
-            "img/personal/pers7.jpeg",
-            "img/personal/pers2.jpeg", 
+            "img/personal/pers7.jpg",
+            "img/personal/pers2.jpg", 
             "img/personal/pers8.jpg", 
         ];
 
