@@ -115,7 +115,6 @@ html {
 
 
 .flex-item {
-  width: 250px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
   padding-left: 0px;
