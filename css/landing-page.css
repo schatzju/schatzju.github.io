@@ -7,13 +7,14 @@
 body,
 html {
     background-image: url("../img/background4.png");
-    height:100%;
-    position: center;
-
     background-attachment: fixed;
-
     background-repeat: no-repeat;
     background-size: cover;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
 }
 
 .header-talk {
@@ -30,9 +31,16 @@ html {
     text-align: "left" !important;
     font-size: 15px;
     font-family: "Trebuchet MS";
-    padding-bottom: 12px;
     padding-top: 4px;
+    font-weight: bold;
 }
+.header-pub-sub {
+    color: #000000;
+    text-align: "left" !important;
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+    padding-bottom: 12px;
+  }
 
 .header-title {
     color: #000000;

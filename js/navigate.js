@@ -6,9 +6,6 @@ document.getElementById('research_button').onclick = function(event) {
    location.href = 'research.html';
 }
 
-document.getElementById('vlog_button').onclick = function(event) {
-   location.href = 'https://www.youtube.com/watch?v=lPHhQPCE8A4&list=PLQKdcWBkHsUsV85teRjXJ9hmfJ0zBt2JA';
-}
 
 document.getElementById('teaching_button').onclick = function(event) {
    location.href = 'teaching.html'
@@ -28,8 +25,7 @@ document.getElementById('teaching_button').onclick = function(event) {
         var imageIndex = 0;
 
 document.getElementById('front_image').onclick = function(event) {
-            imageIndex = imageIndex + 1;
-            imageIndex = (imageIndex) % (images.length);    
+            imageIndex = (imageIndex + images.length -1) % (images.length);    
 
     $("#front_image").attr('src', images[imageIndex]);
 }
