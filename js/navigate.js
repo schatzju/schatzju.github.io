@@ -25,7 +25,7 @@ document.getElementById('teaching_button').onclick = function(event) {
         var imageIndex = 0;
 
 document.getElementById('front_image').onclick = function(event) {
-            imageIndex = (imageIndex + images.length -1) % (images.length);    
-
+            imageIndex = imageIndex + 1;
+            imageIndex = imageIndex % images.length;
     $("#front_image").attr('src', images[imageIndex]);
 }
