@@ -10,7 +10,6 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-  position:absolute;
   top:0px;
   right:0px;
   bottom:0px;
@@ -29,7 +28,7 @@ html {
 .header-pub {
     color: #000000;
     text-align: "left" !important;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "Trebuchet MS";
     padding-top: 4px;
     font-weight: bold;
@@ -45,7 +44,7 @@ html {
 .header-title {
     color: #000000;
     text-align: "left" !important;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Trebuchet MS";
     padding-bottom: 0px;
     padding-top: 4px;
